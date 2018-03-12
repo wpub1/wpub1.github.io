@@ -1,0 +1,36 @@
+/* reset */
+body,div,ul,li,h1,h2,h3,h4,h5,h6{margin: 0;padding: 0;}
+ul{list-style: none;}
+/* layout */
+.wrap{}
+.header{}
+.container{}
+.footer{}
+/* common */
+.clearfix:after{display: block;clear: both;content: '';}
+/* custom */
+body{background-color: #f2f2f2;}
+.logo {padding: 12px 0 12px 24px;}
+.logo img{width: 80px;}
+
+.header_r1{position: relative;}
+.btn_imgs{position: absolute;top: 8px;right: 5px;}
+.btn_imgs li{float: left;margin: 0 5px;}
+.btn_imgs a{display: block;text-align: center;text-decoration: none;font-size: 10px;color: #888;}
+.btn_imgs img{width: 20px;}
+.btn_imgs .txt{display: block;}
+
+.header_r2{border-top: 1px solid #dedede;border-bottom: 1px solid #8b8b8b;}
+
+.main-menu{}
+.main-menu li{float: left;width: 20%;}
+.main-menu a{display: block;text-align: center;text-decoration: none;color: #333;padding: 12px 0;font-size: 14px;white-space: nowrap;font-weight: bold;}
+#slidesBlock{}
+.slide{display: none;}
+.slide.on{display: block;}
+.slide img{width: 100%;}
+.tabs{text-align: center;margin: 12px 0;}
+.tabs .btn-tab{display: inline-block;width: 8px;height: 8px;background-color: #aaa;border-radius:4px;text-indent: -9999px; cursor: pointer;}
+.tabs .btn-tab.on{position: relative;top: -2px;width: 12px;height: 12px;border-radius: 6px; background-color: #f00;}
+
+
